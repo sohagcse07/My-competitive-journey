@@ -1,0 +1,53 @@
+Class 2 : Task 1 :-
+You will be given a connected unweighted graph consisting of n nodes and m undirected edges. For each 1 <= i <= n you have to print all adjacent nodes of i.
+
+Input :
+First line you will be given 2 integers 1 <= n <= 10^5 and 1 <= m <= 2*10^5.
+Then in the next m line of input you will be given two integers u and v where u and v both directly connected by an undirected edge. Here 1 <= u, v <= n.
+
+Output :
+Output will consist of n lines. In the i-th line, print all adjacent nodes of the i-th node separated by a single space in any order.
+
+Sample :
+
+Input :
+5 4
+1 2
+2 3
+2 5
+5 4
+
+Output :
+2
+1 3 5
+2
+5
+4 2
+
+Class - 2 : Task - 2 :-
+You will be given an unweighted graph consisting of n nodes and m directed edges. You have to print all adjacent nodes of i where 1 <= i <= n.
+
+Input :
+First line you will be given 2 integers 1 <= n <= 10^5 and 1 <= m <= 2*10^5.
+Then in the next m line of input you will be given two integers u and v where u and v both directly connected by a directed edge. Here 1 <= u, v <= n.
+
+Output :
+Output will consist of n lines. In the i-th line, print all adjacent nodes of the i-th node separated by a single space in any order. If the i-th node doesn't have any adjacent node then print a blank line. See samples for details.
+Sample :
+
+Input :
+5 4
+1 2
+2 3
+2 5
+5 4
+
+Output :
+2
+3 5
+
+
+4
+
+Note : 3rd and 4th line of sample is blank because node 3 and 4 doesn’t have any adjacent nodes.
+
